@@ -18,6 +18,16 @@ a {
     font-size: 18px;
 }
 
+button {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3382F6;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
 .header {
     justify-content: space-between;
     align-items: center;
@@ -48,6 +58,38 @@ a {
 .hero {
     background-color: #1F2937;
     flex: auto;
+    gap: 16px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -70,6 +112,7 @@ a {
     align-items: center;
 }
 
-.footer > .text {
+.text {
+    font-size: 18px;
     color: #E5E7EB;
 }
