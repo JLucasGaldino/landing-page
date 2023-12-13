@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    flex: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    flex: auto;
+}
+
+.info {
+    background-color: #F9FAF8;
+    flex: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex: auto;
+}
+
+.action {
+    background-color: #F9FAF8;
+    flex: auto;
+}
+
+.content {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
