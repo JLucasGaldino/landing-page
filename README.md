@@ -10,3 +10,6 @@ To put into practice all concepts reviewed in the introductory chapters to html 
 - CSS flexbox
 - Git & Github
 - VS Code
+
+# Link to live page
+https://github.com/JLucasGaldino/landing-page
